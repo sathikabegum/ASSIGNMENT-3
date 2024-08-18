@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        text-align:center;
+        color:white;
+        background-image: url("https://ik.imagekit.io/4z8covdo9/Full stack/todolistbg.png?updatedAt=1700761069523");
+        background-size: cover;
+        background-repeat:no-repeat;
+        font-size:25px;
+        
+    }
+    p{
+        text-align:justify;
+    }
+    input[type="submit"]
+    {
+        width:100px;
+        height:70px;
+        font-size:27px;
+        background-color:orange;
+    }
+    a{
+        font-size:30px;
+        color:white;
+    }
+</style>
+<body>
+    <h1><b>TODOLIST</b></h1>
+    <h2>Each Day I will accomplish one thing on my todolist  </h2>
+    <p><b>Read a book</b></p><br>
+    <p>
+        Reading books is a powerful habit that expands knowledge and creativity. 
+        It enhances vocabulary and improves focus while 
+        offering a peaceful escape 
+        from daily stress. 
+        Through reading, we can explore new perspectives and develop empathy. Regular reading 
+        also strengthens the mind and keeps it active. 
+        Overall, it's a rewarding practice that enriches both personal and intellectual growth.
+    </p>
+    <form>
+        <input type="submit" value="START">
+    </form>
+    <br>
+    <a href="#">Don't skip introduction</a>
+</body>
+
+</html>
